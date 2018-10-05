@@ -1,0 +1,7 @@
+#test{
+    width: 200px;
+    height: 200px;
+    border: 2px solid goldenrod;
+    box-shadow: 0 0 10px blue;
+    margin: 20px auto;
+}

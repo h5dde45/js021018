@@ -1,0 +1,14 @@
+body{
+    background: darkgrey;
+}
+#test{
+    width: 150px;
+    height: 150px;
+    background: brown;
+    margin: 50px;
+}
+#out{
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+}
