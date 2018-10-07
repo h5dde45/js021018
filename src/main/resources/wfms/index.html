@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container pt-5">
+    <div class="row mb-3">
+        <div class="col">
+            <h1>Cars application</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="search">Find car</label>
+                <input type="text" id="search"
+                       class="form-control" placeholder="Make or model of vehicle..">
+            </div>
+            <hr>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-action pointer">1</li>
+                <li class="list-group-item list-group-item-action pointer">2</li>
+                <li class="list-group-item list-group-item-action pointer">3</li>
+            </ul>
+        </div>
+        <div class="col-md-8 pt-3">
+            <div class="row-md-5">
+                <h2>Ford</h2>
+                <img src="images/focus.jpg" class="rounded detailed-car-img">
+            </div>
+            <div class="row-md-7 pt-2">
+                <h5>Car details</h5>
+                <ul>
+                    <li>Model - <strong>Focus</strong></li>
+                    <li>Year - <strong>2013</strong></li>
+                    <li>Owner - <strong>Ivan</strong></li>
+                </ul>
+                <p>+7 921-123-45-67</p>
+
+                <button class="btn btn-outline-success mr-2">Show phone</button>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script src="js.js"></script>
+</body>
+</html>

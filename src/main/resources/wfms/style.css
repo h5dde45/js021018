@@ -1,0 +1,9 @@
+body{
+    background: darkgrey;
+}
+.detailed-car-img{
+    height: 200px;
+}
+.pointer{
+    cursor: pointer;
+}
